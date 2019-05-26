@@ -3,7 +3,7 @@ An Interpreter project for a FlightGear flight simulator.
 The program connects to the simulator and flys the aircraft based on the user's commands.
 
 ### Prerequisites
-* Linux environment
+* Linux environment to run the code
 
 ### Installing 
 * Download and install the simulator - https://www.flightgear.org/download/
@@ -21,13 +21,13 @@ a. Exceute the code using the terminal or any c++ work environment. The program 
 
 b. Click the 'Fly!' icon in the simulator in the bottom left corner (see above picture), and wait for the simulator to load. It will connect to the interpreter in the meantime.
 
-The code is designed to read lines of commands entered in a terminal from the user. The commands can be entered one at a time or by using a pre-made script (make sure each command starts in a new line).
-1. First, open a local communication server to the simulator and connect to it:
+The code is designed to read lines of commands entered in a terminal from the user once the program has started running. The commands can be entered one at a time or by using a pre-made script (make sure each command starts in a new line).
+1. First, enter the following commands to open a local communication server to the simulator and connect to it:
 ```
 openDataServer 5400 10
 connect 127.0.0.1 5402
 ```
-The number '10' indicates the how many times per second the simulator reads the commands.
+The number '10' indicates how many times per second the simulator reads the commands.
 
 2. Initialize your variables:
 ```
