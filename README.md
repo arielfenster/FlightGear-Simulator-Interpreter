@@ -6,7 +6,7 @@ The program connects to the simulator and flys the aircraft based on the user's 
 * Linux environment to run the code
 
 ### Installing 
-* Download and install the simulator - https://www.flightgear.org/download/
+* Download and install the simulator on your computer - https://www.flightgear.org/download/
 * Add the  generic_small.xml file to the /data/Protocol directory where you installed the simulator
 * Config the following settings in the 'Settings' tab in the simulator:
 ```
