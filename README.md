@@ -15,6 +15,8 @@ The program connects to the simulator and flys the aircraft based on the user's 
 ```
 ![simulator-settings-config](https://user-images.githubusercontent.com/45856261/58368127-4a489680-7ef1-11e9-81ca-b17badca7f8e.PNG)
 
+This will open two communication sockets - 'in' where you send commands to the simulator, and 'out' where you receive data from it.
+
 
 ### Running
 a. Exceute the code using the terminal or any c++ work environment. The program will wait for a connection from the simulator.
